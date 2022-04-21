@@ -11,5 +11,6 @@ public class Memo {
 
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
-    private Long mno;
-}
+    private Long mn;
+    private String think ="모르겠으";
+
